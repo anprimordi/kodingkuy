@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">koding-kuy</string>
+    <string name="app_description">lorem ipsum dolor sit amet constectetur</string>
+    <string name="app_owner">
+        Ahmad Nuftah Primordi\n
+        S1 Teknik Informatika 2015\n
+        Universitas Negeri Malang
+    </string>
+
+    <!--Home activity usage-->
+    <string name="text_informasi">Informasi</string>
+    <string name="text_materi">Materi</string>
+    <string name="text_kuis">Kuis</string>
+    <string name="text_about">Pendahuluan</string>
+    <string name="image_pendahuluan">Gambar menu pendahuluan</string>
+    <string name="image_kuis">Gambar menu kuis</string>
+    <string name="image_materi">Gambar menu materi</string>
+    <string name="image_logo">Logo aplikasi koding-kuy</string>
+    <string name="text_slogan">Yuk belajar ngoding!</string>
+    <string name="msg_copyright">Copyright © 2019 by Ahmad Nuftah Primordi</string>
+    <string name="text_pengembang">Pengembang Aplikasi</string>
+    <string name="image_introduction">Gambar About</string>
+
+    <!--Kategori activity usage-->
+    <string name="kategori_image">Gambar item kategori</string>
+    <string name="text_app_logo">Koding\nKuy!</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
