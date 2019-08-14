@@ -168,7 +168,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#ff0266"
+                android:background="#D500F9"
                 android:contentDescription="@string/image_kuis"
                 android:paddingStart="16dp"
                 android:paddingTop="8dp"

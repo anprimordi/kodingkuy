@@ -23,7 +23,7 @@
 
     <!--Kategori activity usage-->
     <string name="kategori_image">Gambar item kategori</string>
-    <string name="text_app_logo">Koding\nKuy!</string>
+    <string name="text_app_logo">Koding\nkuy!</string>
     <string name="title_activity_home">HomeActivity</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
