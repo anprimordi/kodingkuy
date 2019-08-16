@@ -12,9 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity
-            android:name=".feature.home.HomeActivity"
-            android:label="@string/title_activity_home"></activity>
+        <activity android:name=".feature.materi.detail.DetailMateriActivity" />
+        <activity android:name=".feature.materi.MateriActivity" />
+        <activity android:name=".feature.kuis.KuisActivity" />
+        <activity android:name=".feature.info.InfoActivity" />
+        <activity android:name=".feature.pendahuluan.PendahuluanActivity" />
         <activity android:name=".feature.home.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

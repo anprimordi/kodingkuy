@@ -10,8 +10,8 @@
 
     <ImageView
         android:id="@+id/image_materi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:layout_margin="@dimen/margin_kategori_image"
         android:contentDescription="@string/kategori_image"
         android:src="@drawable/ic_books_colored_48dp"

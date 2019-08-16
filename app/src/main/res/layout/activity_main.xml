@@ -36,7 +36,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:text="@string/text_app_logo"
+        android:text="@string/title_app_logo"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@color/colorAccent"
         android:textStyle="bold"
@@ -51,21 +51,63 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/primary_text"
         android:textStyle="bold|italic"
-        app:layout_constraintBottom_toTopOf="@id/menu_pendahuluan"
-        app:layout_constraintEnd_toEndOf="@id/menu_pendahuluan"
+        app:layout_constraintBottom_toTopOf="@id/menu_info"
+        app:layout_constraintEnd_toEndOf="@id/menu_info"
         app:layout_constraintTop_toBottomOf="@id/image_app_logo" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:contentDescription="@string/image_logo"
-        android:src="@drawable/ic_main_owl_colored_128dp"
-        app:layout_constraintBottom_toTopOf="@id/guideline_horizontal"
-        app:layout_constraintEnd_toStartOf="@id/guideline_vertical" />
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="8dp"-->
+        <!--android:contentDescription="@string/image_logo"-->
+        <!--android:src="@drawable/ic_main_owl_colored_128dp"-->
+        <!--app:layout_constraintBottom_toTopOf="@id/guideline_horizontal"-->
+        <!--app:layout_constraintEnd_toStartOf="@id/guideline_vertical" />-->
 
     <androidx.cardview.widget.CardView
         android:id="@+id/menu_pendahuluan"
+        style="@style/GeneralCardViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toTopOf="@id/guideline_horizontal"
+        app:layout_constraintEnd_toStartOf="@id/guideline_vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/solid_white"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorTriadic"
+                android:contentDescription="@string/image_pendahuluan"
+                android:paddingStart="16dp"
+                android:paddingTop="8dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="8dp"
+                android:src="@drawable/ic_main_info_white_128dp" />
+
+            <TextView
+                android:id="@+id/text_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:paddingStart="16dp"
+                android:paddingTop="4dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="4dp"
+                android:text="@string/title_pendahuluan"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/primary_text" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/menu_info"
         style="@style/GeneralCardViewStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -83,7 +125,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="#a3ff03"
-                android:contentDescription="@string/image_pendahuluan"
+                android:contentDescription="@string/image_info"
                 android:paddingStart="16dp"
                 android:paddingTop="8dp"
                 android:paddingEnd="16dp"
@@ -100,7 +142,7 @@
                 android:paddingTop="4dp"
                 android:paddingEnd="16dp"
                 android:paddingBottom="4dp"
-                android:text="@string/text_about"
+                android:text="@string/title_info"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="@color/primary_text" />
         </LinearLayout>
@@ -143,7 +185,7 @@
                 android:paddingTop="4dp"
                 android:paddingEnd="16dp"
                 android:paddingBottom="4dp"
-                android:text="@string/text_materi"
+                android:text="@string/title_materi"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="@color/primary_text" />
         </LinearLayout>
@@ -186,7 +228,7 @@
                 android:paddingTop="4dp"
                 android:paddingEnd="16dp"
                 android:paddingBottom="4dp"
-                android:text="@string/text_kuis"
+                android:text="@string/title_kuis"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="@color/primary_text" />
         </LinearLayout>

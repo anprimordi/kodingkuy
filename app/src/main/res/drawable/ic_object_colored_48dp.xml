@@ -1,0 +1,14 @@
+<vector android:height="128dp" android:viewportHeight="463.99905"
+    android:viewportWidth="463.99905" android:width="128dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#F1F2F2" android:pathData="m231,47c-74.406,0.023 -141.473,44.852 -169.941,113.594 -28.473,68.742 -12.738,147.863 39.859,200.484l260.16,-260.16c-34.477,-34.535 -81.277,-53.934 -130.078,-53.918zM231,47"/>
+    <path android:fillColor="#F1F2F2" android:pathData="m361.078,100.918 l-260.16,260.16c46.145,48.086 114.676,67.461 179.164,50.656s114.848,-67.164 131.652,-131.652 -2.57,-133.02 -50.656,-179.164zM361.078,100.918"/>
+    <path android:fillColor="#ffcd00" android:pathData="m361.078,100.918c34.523,34.488 53.922,81.285 53.922,130.082s-19.398,95.594 -53.922,130.078l34,34c90.563,-90.641 90.563,-237.516 0,-328.16zM361.078,100.918"/>
+    <path android:fillColor="#ffcd00" android:pathData="m47,231c-0.016,-48.801 19.383,-95.602 53.918,-130.082l-34,-34c-90.559,90.645 -90.559,237.52 0,328.16l34,-34c-34.535,-34.477 -53.934,-81.277 -53.918,-130.078zM47,231"/>
+    <path android:fillColor="#FF9811" android:pathData="m231,415c-48.801,0.016 -95.602,-19.387 -130.082,-53.922l-34,34c90.645,90.563 237.52,90.563 328.16,0l-34,-34c-34.477,34.535 -81.277,53.938 -130.078,53.922zM231,415"/>
+    <path android:fillColor="#FF9811" android:pathData="m231,47c48.801,-0.016 95.602,19.383 130.078,53.918l34,-34c-90.641,-90.559 -237.516,-90.559 -328.16,0l34,34c34.48,-34.535 81.281,-53.934 130.082,-53.918zM231,47"/>
+    <path android:fillColor="#ff3051" android:pathData="m135,175 l96,67.918 96,-67.918 -96,-67.922zM135,175"/>
+    <path android:fillColor="#2b3990" android:pathData="m214.121,231 l-79.121,-56v112l96,67.918v-112zM214.121,231"/>
+    <path android:fillColor="#7ed63e" android:pathData="m231,242.918v112l96,-67.918v-112l-79.121,56zM231,242.918"/>
+    <path android:fillColor="#000000" android:pathData="m247.879,231 l79.121,-56 -96,67.918zM247.879,231"/>
+    <path android:fillColor="#000000" android:pathData="m231,242.918 l-96,-67.918 79.121,56zM231,242.918"/>
+</vector>

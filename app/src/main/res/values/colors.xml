@@ -3,6 +3,7 @@
     <color name="colorPrimary">#ffdd03</color>
     <color name="colorPrimaryDark">#ffab00</color>
     <color name="colorAccent">#0325ff</color>
+    <color name="colorTriadic">#ff0266</color>
     <color name="colorBackground">#fffee6</color>
 
     <color name="primary_text">#212121</color>

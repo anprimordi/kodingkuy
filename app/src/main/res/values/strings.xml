@@ -7,11 +7,14 @@
         Universitas Negeri Malang
     </string>
 
+    <!--General usage-->
+    <string name="message_empty">Konten Kosong</string>
+
     <!--Home activity usage-->
-    <string name="text_informasi">Informasi</string>
-    <string name="text_materi">Materi</string>
-    <string name="text_kuis">Kuis</string>
-    <string name="text_about">Pendahuluan</string>
+    <string name="title_info">Informasi</string>
+    <string name="title_materi">Materi</string>
+    <string name="title_kuis">Kuis</string>
+    <string name="title_pendahuluan">Pendahuluan</string>
     <string name="image_pendahuluan">Gambar menu pendahuluan</string>
     <string name="image_kuis">Gambar menu kuis</string>
     <string name="image_materi">Gambar menu materi</string>
@@ -23,9 +26,9 @@
 
     <!--Kategori activity usage-->
     <string name="kategori_image">Gambar item kategori</string>
-    <string name="text_app_logo">Koding\nkuy!</string>
+    <string name="title_app_logo">Koding\nkuy!</string>
     <string name="title_activity_home">HomeActivity</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="image_info">Gambar untuk menu informasi</string>
+    <string name="image_detail_materi">Gambar untuk collapsing toolbar</string>
+    <string name="title_detail_materi">Judul Materi</string>
 </resources>
