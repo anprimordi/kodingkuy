@@ -12,9 +12,9 @@
         android:id="@+id/image_materi"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:layout_margin="@dimen/margin_kategori_image"
+        android:layout_margin="@dimen/margin_item_materi_image"
         android:contentDescription="@string/kategori_image"
-        android:src="@drawable/ic_books_colored_48dp"
+        android:src="@drawable/ic_placeholder_black_128dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -32,7 +32,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/image_materi"
         app:layout_constraintTop_toTopOf="@id/image_materi"
-        tools:text="Obat Kardiovaskuler" />
+        tools:text="@tools:sample/lorem" />
 
     <TextView
         android:id="@+id/text_subtitle"

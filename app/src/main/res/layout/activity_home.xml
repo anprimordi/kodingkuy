@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context=".feature.home.MainActivity">
+    tools:context=".feature.home.HomeActivity">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_horizontal"
@@ -52,17 +52,17 @@
         android:textColor="@color/primary_text"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toTopOf="@id/menu_info"
-        app:layout_constraintEnd_toEndOf="@id/menu_info"
+        app:layout_constraintEnd_toEndOf="@+id/menu_info"
         app:layout_constraintTop_toBottomOf="@id/image_app_logo" />
 
     <!--<ImageView-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_margin="8dp"-->
-        <!--android:contentDescription="@string/image_logo"-->
-        <!--android:src="@drawable/ic_main_owl_colored_128dp"-->
-        <!--app:layout_constraintBottom_toTopOf="@id/guideline_horizontal"-->
-        <!--app:layout_constraintEnd_toStartOf="@id/guideline_vertical" />-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="8dp"-->
+    <!--android:contentDescription="@string/image_logo"-->
+    <!--android:src="@drawable/ic_main_owl_colored_128dp"-->
+    <!--app:layout_constraintBottom_toTopOf="@id/guideline_horizontal"-->
+    <!--app:layout_constraintEnd_toStartOf="@id/guideline_vertical" />-->
 
     <androidx.cardview.widget.CardView
         android:id="@+id/menu_pendahuluan"
@@ -130,7 +130,7 @@
                 android:paddingTop="8dp"
                 android:paddingEnd="16dp"
                 android:paddingBottom="8dp"
-                android:src="@drawable/ic_main_pendahuluan_white_128dp" />
+                android:src="@drawable/ic_home_pendahuluan_white_128dp" />
 
             <TextView
                 android:id="@+id/text_about"
@@ -154,7 +154,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        app:cardBackgroundColor="?attr/selectableItemBackground"
         app:layout_constraintEnd_toStartOf="@id/guideline_vertical"
         app:layout_constraintTop_toBottomOf="@id/guideline_horizontal">
 
@@ -173,7 +172,7 @@
                 android:paddingTop="8dp"
                 android:paddingEnd="16dp"
                 android:paddingBottom="8dp"
-                android:src="@drawable/ic_main_code_white_128dp" />
+                android:src="@drawable/ic_home_code_white_128dp" />
 
             <TextView
                 android:id="@+id/text_materi"
@@ -216,7 +215,7 @@
                 android:paddingTop="8dp"
                 android:paddingEnd="16dp"
                 android:paddingBottom="8dp"
-                android:src="@drawable/ic_main_kuis_white_128dp" />
+                android:src="@drawable/ic_home_kuis_white_128dp" />
 
             <TextView
                 android:id="@+id/text_kuis"

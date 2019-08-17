@@ -26,6 +26,11 @@ class MateriActivity : AppCompatActivity(), MateriContract.View {
         adapter.setmData(listMateri)
     }
 
+    override fun onStart() {
+        super.onStart()
+        presenter.start()
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_materi)

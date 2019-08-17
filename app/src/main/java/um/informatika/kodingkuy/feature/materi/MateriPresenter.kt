@@ -12,7 +12,7 @@ class MateriPresenter(val view: MateriContract.View) : MateriContract.Presenter 
                 Materi("Encapsulation", "Membungkus method dan data layaknya kapsul", R.drawable.ic_encapsulation_colored_128dp, "modul_4.pdf"),
                 Materi("Polymorphism", "Method sama, tipe objek berbeda", R.drawable.ic_polymorphism_colored_128dp, "modul_5.pdf"),
                 Materi("Abstract Class dan Interface", "Keduanya digunakan sebagai basis suatu kelas", R.drawable.ic_abstract_colored_128dp, "modul_6.pdf"),
-                Materi("Exception Handling", " Menangani kasus kusus: try ... catch ...", R.drawable.ic_exception_colored_128dp, "modul_7.pdf"))
+                Materi("Exception Handling", " Menangani kasus khusus: try ... catch ...", R.drawable.ic_exception_colored_128dp, "modul_7.pdf"))
 
         view.onLoadListMateriSucceed(listMateri)
     }

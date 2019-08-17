@@ -10,7 +10,7 @@ import um.informatika.kodingkuy.feature.pendahuluan.PendahuluanActivity
 import um.informatika.kodingkuy.feature.kuis.KuisActivity
 import um.informatika.kodingkuy.feature.materi.MateriActivity
 
-class MainActivity : AppCompatActivity() {
+class HomeActivity : AppCompatActivity() {
 
     private lateinit var cardPendahuluan: CardView
     private lateinit var cardInfo: CardView
@@ -19,7 +19,12 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_home)
+
+//        val cardPendahuluan = findViewById<CardView>(R.id.menu_pendahuluan)
+//        val cardInfo = findViewById<CardView>(R.id.menu_info)
+//        val cardMateri = findViewById<CardView>(R.id.menu_materi)
+//        val cardKuis = findViewById<CardView>(R.id.menu_kuis)
 
         bindView()
 
@@ -35,6 +40,4 @@ class MainActivity : AppCompatActivity() {
         cardMateri = findViewById(R.id.menu_materi)
         cardKuis = findViewById(R.id.menu_kuis)
     }
-
-
 }
