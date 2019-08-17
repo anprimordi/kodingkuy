@@ -55,15 +55,6 @@
         app:layout_constraintEnd_toEndOf="@+id/menu_info"
         app:layout_constraintTop_toBottomOf="@id/image_app_logo" />
 
-    <!--<ImageView-->
-    <!--android:layout_width="wrap_content"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:layout_margin="8dp"-->
-    <!--android:contentDescription="@string/image_logo"-->
-    <!--android:src="@drawable/ic_main_owl_colored_128dp"-->
-    <!--app:layout_constraintBottom_toTopOf="@id/guideline_horizontal"-->
-    <!--app:layout_constraintEnd_toStartOf="@id/guideline_vertical" />-->
-
     <androidx.cardview.widget.CardView
         android:id="@+id/menu_pendahuluan"
         style="@style/GeneralCardViewStyle"
