@@ -1,34 +1,39 @@
 <resources>
     <string name="app_name">koding-kuy</string>
-    <string name="app_description">lorem ipsum dolor sit amet constectetur</string>
+    <string name="app_description">Koding-kuy merupakan aplikasi yang bertujuan untuk mengajarkan pemrograman tingkat dasar.
+        Semua resource dan modul dalam aplikasi ini bersifat gratis dan open source.</string>
     <string name="app_owner">
-        Ahmad Nuftah Primordi\n
-        S1 Teknik Informatika 2015\n
-        Universitas Negeri Malang
+        Ahmad Nuftah Primordi
     </string>
+    <string name="app_version">1.0</string>
+    <string name="msg_copyright">Copyright © %d by Ahmad Nuftah Primordi</string>
 
     <!--General usage-->
     <string name="message_empty">Konten Kosong</string>
 
     <!--Home activity usage-->
-    <string name="title_info">Informasi</string>
+    <string name="title_app_logo">Koding\nkuy!</string>
+    <string name="title_pendahuluan">Pendahuluan</string>
+    <string name="title_about">About</string>
     <string name="title_materi">Materi</string>
     <string name="title_kuis">Kuis</string>
-    <string name="title_pendahuluan">Pendahuluan</string>
+    <string name="image_app_logo">Logo aplikasi koding-kuy</string>
     <string name="image_pendahuluan">Gambar menu pendahuluan</string>
+    <string name="image_about">Gambar menu About</string>
     <string name="image_kuis">Gambar menu kuis</string>
     <string name="image_materi">Gambar menu materi</string>
-    <string name="image_logo">Logo aplikasi koding-kuy</string>
     <string name="text_slogan">Yuk belajar ngoding!</string>
-    <string name="msg_copyright">Copyright © 2019 by Ahmad Nuftah Primordi</string>
-    <string name="text_pengembang">Pengembang Aplikasi</string>
-    <string name="image_introduction">Gambar About</string>
 
     <!--Kategori activity usage-->
     <string name="kategori_image">Gambar item kategori</string>
-    <string name="title_app_logo">Koding\nkuy!</string>
-    <string name="title_activity_home">HomeActivity</string>
-    <string name="image_info">Gambar untuk menu informasi</string>
-    <string name="image_detail_materi">Gambar untuk collapsing toolbar</string>
-    <string name="title_detail_materi">Judul Materi</string>
+
+    <!--Detail Materi activity usage-->
+    <string name="image_detail_materi">Gambar materi relevan</string>
+    <string name="title_detail_materi">Judul materi relevan</string>
+
+    <!--About Activity usage-->
+    <string name="text_connect_with_me">Connect with me</string>
+    <string name="text_email">ahmadnuftahprimordi@gmail.com</string>
+    <string name="text_instagram">a_primordi</string>
+    <string name="text_github">anprimordi</string>
 </resources>

@@ -28,7 +28,7 @@ class DetailMateriActivity : AppCompatActivity() {
 //        setSupportActionBar(toolbar)
 
 //        toolbar.title = materi.title
-        textDetailTitle.text = materi.title
+        textDetailTitle.text = materi!!.title
         textDetailSubtitle.text = materi.subtitle
         imageDetailMateri.setImageResource(materi.imageSource)
 
