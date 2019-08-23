@@ -11,6 +11,7 @@
         Untuk mengetes kemampuan pengguna, koding-kuy dilengkapi dengan menu kuis yang bersifat pilihan ganda.
         Semua resource dan modul dalam aplikasi ini bersifat gratis dan open source.</string>
     <string name="app_owner">Ahmad Nuftah Primordi</string>
+    <string name="app_developer">Ahmad Nuftah Primordi\nS1 Teknik Informatika\nUniversitas Negeri Malang</string>
     <string name="app_version">1.0</string>
     <string name="app_copyright">Copyright © %d by Ahmad Nuftah Primordi</string>
     <string name="message_empty">Konten Kosong</string>
@@ -27,6 +28,9 @@
     <string name="image_kuis">Gambar menu kuis</string>
     <string name="image_materi">Gambar menu materi</string>
 
+    <!--Pendahuluan Activity usage-->
+    <string name="text_pengembang">Pengembang Aplikasi</string>
+
     <!--Kategori activity usage-->
     <string name="kategori_image">Gambar item kategori</string>
 
@@ -39,6 +43,5 @@
     <string name="text_email">ahmadnuftahprimordi@gmail.com</string>
     <string name="text_instagram">a_primordi</string>
     <string name="text_github">anprimordi</string>
-    <string name="text_pengembang">Pengembang Aplikasi</string>
-    <string name="app_developer">Ahmad Nuftah Primordi\nS1 Teknik Informatika\nUniversitas Negeri Malang</string>
+
 </resources>

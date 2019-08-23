@@ -19,7 +19,7 @@ class AboutActivity : AppCompatActivity() {
         val aboutPage = AboutPage(this)
                 .isRTL(false)
                 .setImage(R.drawable.image_app_owner)
-                .setDescription(R.string.app_description.toString())
+                .setDescription(R.string.app_developer.toString())
                 .addItem(Element().setTitle("Version " + R.string.app_version))
                 .addGroup(R.string.text_connect_with_me.toString())
                 .addEmail(R.string.text_email.toString())

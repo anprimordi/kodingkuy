@@ -43,8 +43,8 @@ class DetailMateriActivity : AppCompatActivity() {
 
     private fun bindView() {
 //        toolbar = findViewById(R.id.toolbar_detail_materi)
-        textDetailTitle = findViewById(R.id.text_detail_title)
-        textDetailSubtitle = findViewById(R.id.text_detail_subtitle)
+        textDetailTitle = findViewById(R.id.title_detail)
+        textDetailSubtitle = findViewById(R.id.subtitle_detail)
         imageDetailMateri = findViewById(R.id.image_detail_materi)
         pdfView = findViewById(R.id.pdf_view)
     }

@@ -17,7 +17,7 @@ class MateriActivity : AppCompatActivity(), MateriContract.View {
 
     override lateinit var presenter: MateriContract.Presenter
     private var rvMateri: RecyclerView? = null
-    private var msgEmpty: TextView?=null
+    private var msgEmpty: TextView? = null
     private lateinit var adapter: MateriAdapter
 
     override fun onLoadListMateriSucceed(listMateri: List<Materi>) {
@@ -45,7 +45,7 @@ class MateriActivity : AppCompatActivity(), MateriContract.View {
         val clickListener = object : MateriItemClickListener {
             override fun onItemClick(materi: Materi) {
                 val intent = Intent(this@MateriActivity, DetailMateriActivity::class.java)
-                intent.putExtra("materi",materi)
+                intent.putExtra("materi", materi)
                 startActivity(intent)
             }
         }

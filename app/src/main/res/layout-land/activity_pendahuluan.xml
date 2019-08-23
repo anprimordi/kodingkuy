@@ -43,12 +43,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/margin_vertical"
-            android:layout_marginEnd="@dimen/margin_horizontal"
             android:text="@string/app_slogan"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primary_text"
             android:textStyle="bold|italic"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/text_app_title" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -72,15 +72,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:gravity="center"
             android:layout_marginTop="@dimen/margin_vertical"
+            android:background="@color/colorTriadic"
+            android:padding="3dp"
             android:text="@string/text_pengembang"
+            android:textColor="@color/solid_white"
             android:textStyle="bold" />
 
         <TextView
+            android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/margin_vertical"
-            android:gravity="center"
             android:text="@string/app_developer" />
     </LinearLayout>
 
