@@ -31,7 +31,7 @@ class HomeActivity : AppCompatActivity() {
         cardMateri.setOnClickListener { startActivity(Intent(this, MateriActivity::class.java)) }
         cardKuis.setOnClickListener { startActivity(Intent(this, KuisActivity::class.java)) }
 
-        textCopyright.text = String.format(Locale.getDefault(), R.string.msg_copyright.toString(), Calendar.getInstance().get(Calendar.YEAR))
+        textCopyright.text = String.format(Locale.getDefault(), R.string.app_copyright.toString(), Calendar.getInstance().get(Calendar.YEAR))
     }
 
     private fun bindView() {

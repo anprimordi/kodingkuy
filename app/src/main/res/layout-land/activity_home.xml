@@ -29,7 +29,7 @@
         android:layout_marginTop="24dp"
         android:contentDescription="@string/image_app_logo"
         android:src="@drawable/logo_app_colored_48dp"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@id/card_about"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -51,8 +51,8 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/primary_text"
         android:textStyle="bold|italic"
-        app:layout_constraintBottom_toTopOf="@id/card_about"
-        app:layout_constraintEnd_toEndOf="@+id/card_about"
+        app:layout_constraintBottom_toTopOf="@id/card_materi"
+        app:layout_constraintEnd_toEndOf="@+id/card_materi"
         app:layout_constraintTop_toBottomOf="@id/image_app_logo" />
 
     <androidx.cardview.widget.CardView
@@ -61,8 +61,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        app:layout_constraintBottom_toTopOf="@id/guideline_horizontal"
-        app:layout_constraintEnd_toStartOf="@id/guideline_vertical">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/card_about"
+        app:layout_constraintStart_toStartOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -103,8 +105,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        app:layout_constraintBottom_toTopOf="@id/guideline_horizontal"
-        app:layout_constraintStart_toEndOf="@id/guideline_vertical">
+        app:layout_constraintStart_toEndOf="@id/card_pendahuluan"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/card_materi">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -145,8 +149,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        app:layout_constraintEnd_toStartOf="@id/guideline_vertical"
-        app:layout_constraintTop_toBottomOf="@id/guideline_horizontal">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/card_kuis"
+        app:layout_constraintStart_toStartOf="@id/card_about">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -188,8 +194,10 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:background="?attr/selectableItemBackground"
-        app:layout_constraintStart_toEndOf="@id/guideline_vertical"
-        app:layout_constraintTop_toBottomOf="@id/guideline_horizontal">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/card_materi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"

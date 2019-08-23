@@ -34,7 +34,7 @@ class AboutActivity : AppCompatActivity() {
 
     private fun createCopyright(): Element {
         val copyright = Element()
-        val copyrightString = String.format(Locale.getDefault(), R.string.msg_copyright.toString(), Calendar.getInstance().get(Calendar.YEAR))
+        val copyrightString = String.format(Locale.getDefault(), R.string.app_copyright.toString(), Calendar.getInstance().get(Calendar.YEAR))
         copyright.title = copyrightString
         copyright.icon = R.mipmap.ic_launcher_round
         copyright.gravity = Gravity.CENTER
