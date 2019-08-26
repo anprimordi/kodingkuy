@@ -2,14 +2,18 @@
     <!--General usage-->
     <string name="app_name">Kodingkuy!</string>
     <string name="app_slogan">Yuk belajar ngoding!</string>
-    <string name="app_description">Koding-kuy merupakan aplikasi yang bertujuan untuk mengajarkan pemrograman tingkat dasar.
+    <string name="app_description">Koding-kuy merupakan aplikasi yang bertujuan untuk mengajarkan pemrograman tingkat
+        dasar.
         Materi yang diajarkan antara lain pemrograman berorientasi objek dan pemrograman web.
-        Pemrograman berorientasi objek adalah suatu paradigma pemrograman berdasarkan konsep "objek", yang berisi data, yang berupa atribut dan method.
+        Pemrograman berorientasi objek adalah suatu paradigma pemrograman berdasarkan konsep "objek", yang berisi data,
+        yang berupa atribut dan method.
         Materi tersebut menggunakan Java sebagai bahasa pemrogramannya.
-        Pemrograman web merupakan pemrograman yang bertujuan untuk mengembangkan situs web untuk internet (World Wide Web) ataupun intranet (jaringan privat).
+        Pemrograman web merupakan pemrograman yang bertujuan untuk mengembangkan situs web untuk internet (World Wide
+        Web) ataupun intranet (jaringan privat).
         Materi tersebut menggunakan HTML, CSS, dan PHP sebagai bahasa pemrogramannya.
         Untuk mengetes kemampuan pengguna, koding-kuy dilengkapi dengan menu kuis yang bersifat pilihan ganda.
-        Semua resource dan modul dalam aplikasi ini bersifat gratis dan open source.</string>
+        Semua resource dan modul dalam aplikasi ini bersifat gratis dan open source.
+    </string>
     <string name="app_owner">Ahmad Nuftah Primordi</string>
     <string name="app_developer">Ahmad Nuftah Primordi\nS1 Teknik Informatika\nUniversitas Negeri Malang</string>
     <string name="app_version">1.0</string>
@@ -31,8 +35,6 @@
     <!--Pendahuluan Activity usage-->
     <string name="text_pengembang">Pengembang Aplikasi</string>
 
-    <!--Kategori activity usage-->
-    <string name="kategori_image">Gambar item kategori</string>
 
     <!--Detail Materi activity usage-->
     <string name="image_detail_materi">Gambar materi relevan</string>
@@ -44,4 +46,254 @@
     <string name="text_instagram">a_primordi</string>
     <string name="text_github">anprimordi</string>
 
+    <!--Kategori activity usage-->
+    <string name="kategori_image">Gambar item kategori</string>
+
+    <!--Kuis activity usage-->
+
+    <!--<string-array name="">-->
+    <!--<item></item>-->
+    <!--<item></item>-->
+    <!--<item></item>-->
+    <!--<item></item>-->
+    <!--<item></item>-->
+
+    <!--<item></item>-->
+    <!--<item></item>-->
+    <!--<item></item>-->
+    <!--<item></item>-->
+    <!--<item></item>-->
+
+    <!--<item></item>-->
+    <!--<item></item>-->
+    <!--<item></item>-->
+    <!--<item></item>-->
+    <!--<item></item>-->
+
+    <!--<item></item>-->
+    <!--<item></item>-->
+    <!--<item></item>-->
+    <!--<item></item>-->
+    <!--<item></item>-->
+    <!--</string-array>-->
+    <!-- ***** soal ***** -->
+
+
+    <!--soal bab 1-->
+    <string-array name="array_soal_bab_1">
+        <item>Diantara perintah untuk mencetak berikut, yang benar adalah …</item>
+        <item>Stream yang berguna untuk mengirim output adalah …</item>
+        <item>Diantara pernyataan berikut, konsep yang tidak ada di dalam pemrograman java adalah …</item>
+        <item>Dalam konsep pemrograman berbasis objek, setiap object memiliki behaviour. Apa yang dimaksud behaviour?</item>
+        <item>Method yang digunakan untuk konversi nilai string ke integer adalah …</item>
+
+        <item>Berikut ini yang termasuk tipe data reference adalah …</item>
+        <item>Method yang digunakan untuk membandingkan dua buah data string adalah …</item>
+        <item>Method yang digunakan untuk mengambil suatu karakter berdasarkan lokasi yang kita berikan adalah …</item>
+        <item>Package yang digunakan untuk membuat program menggunakan class BufferedReader adalah …</item>
+        <item>Istilah untuk melindungi data dari modifikasi, perusakan, serta penggandaan data oleh pihak tidak berwenang adalah …</item>
+
+        <item>Komentar pada program dalam Java menggunakan perintah …</item>
+        <item>Apa tipe data yang tepat untuk menyimpan Nomor Induk Mahasiswa?</item>
+        <item>Berikut ini pernyataan yang benar berhubungan dengan class dan object dalam Java, kecuali …</item>
+        <item>Suatu method yang dapat dijalankan otomatis pada saat object dari class dibuat, dikenal dengan …</item>
+        <item>Berikut ini adalah hak akses yang dapa tditambahkan di depan method Java, kecuali …</item>
+
+        <item>Pernyataan yang benar berhubungan dengan method dalam java, yaitu …</item>
+        <item>Penanganan error dengan throws diletakkan di …</item>
+        <item>Berikut adalah struktur pernyataan operator kondisi yang benar, yakni …</item>
+        <item>Berikut adalah cara pendeklarasian array 1 dimensi, kecuali</item>
+        <item>Perhatikan potongan program berikut:\n
+        1.\t\tStringBuffer x1 = new StringBuffer("Matahari Terbenam");\n
+        2.\t\tx1 = x1.replace(1,3,"Alam");\n
+        3.\t\tSystem.out.println(x1);\n
+        Hasil penggalan program di atas adalah …</item>
+    </string-array>
+
+    <!--soal bab 2-->
+    <string-array name="array_soal_bab_2">
+        <item>Yang bukan merupakan profesi dalam pengembangan aplikasi web adalah</item>
+        <item>Orang yang menguasai web dari berbagai segi adalah …</item>
+        <item>Kepanjangan WWW adalah …</item>
+        <item>Siapa penemu WWW?</item>
+        <item>Dalam alur perkembangan aplikasi web, kegiatan untuk merumuskan tujuan dan ukuran dari aplikasi teratas web serta menentukan batasan sistem merupakan …</item>
+
+        <item>Kode hexadecimal #000000 merupakan kode warna …</item>
+        <item>Tag HTML untuk melakukan format karakter agar tampilan huruf seperti mesin ketik adalah …</item>
+        <item>Dalam penulisan HTML, teks yang digunakan pada judul menggunakan tag …</item>
+        <item>Tag HTML yang digunakan untu kmendandai sebuah paragraf dari dokumen HTML yang dibuat adalah …</item>
+        <item>Tag HTML yang digunakan untuk memisahkan teks dengan baris baru adalah …</item>
+
+        <item>Agar baris atau kolom dalam tabel sebuah halaman web menjadi kosong menggunakan perintah</item>
+        <item>Perintah "<td valign="top">isi sel</td>" berarti …</item>
+        <item>Berikut ini perintah HTML yang berhubungan dalam pembuatan tabel, kecuali</item>
+        <item>Contoh penulisan perintah HTML untuk menjadi beberapa baris dalam tabel menjadi satu adalah …</item>
+        <item>Perintah yang harus dijalankan agar dapat mengganti baris yang masih dalam satu kolom …</item>
+
+        <item>Dalam HTML, dapat ditambahkan hubungan ke link lain. Berikut adalah perintahnya …</item>
+        <item>Untuk menerima input berupa banyak pilihan adalah …</item>
+        <item>Kegunaan form adalah …</item>
+        <item>Bagaimanakah perintah HTML agar muncul input type password?</item>
+        <item>Untuk menerima input berupa satu pilihan adalah …</item>
+    </string-array>
+    <!-- ***** end of soal ***** -->
+
+    <!--***** kunci jawaban *****-->
+    <string-array name="array_jawaban_kunci_bab_1">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>A</item>
+        <item>C</item>
+
+        <item>B</item>
+        <item>D</item>
+        <item>C</item>
+        <item>A</item>
+        <item>D</item>
+
+        <item>C</item>
+        <item>D</item>
+        <item>B</item>
+        <item>A</item>
+        <item>A</item>
+
+        <item>B</item>
+        <item>D</item>
+        <item>C</item>
+        <item>B</item>
+        <item>B</item>
+    </string-array>
+
+    <string-array name="array_jawaban_kunci_bab_2">
+        <item>C</item>
+        <item>D</item>
+        <item>B</item>
+        <item>A</item>
+        <item>B</item>
+
+        <item>A</item>
+        <item>D</item>
+        <item>B</item>
+        <item>A</item>
+        <item>C</item>
+
+        <item>C</item>
+        <item>A</item>
+        <item>D</item>
+        <item>D</item>
+        <item>A</item>
+
+        <item>C</item>
+        <item>C</item>
+        <item>A</item>
+        <item>A</item>
+        <item>B</item>
+    </string-array>
+    <!-- ***** end of kunci jawaban ***** -->
+
+    <!-- pilihan jawaban bab 1-->
+    <string-array name="array_jawaban_a_bab_1">
+    <item>System.out.println("Hello World!");</item>
+    <item>System.in.</item>
+    <item>Polymorphism</item>
+    <item>parseInt()</item>
+    <item>Identifier</item>
+
+    <item>float</item>
+    <item>equal()</item>
+    <item>toString</item>
+    <item>java.io.*</item>
+    <item>Inheritance</item>
+
+    <item>/* … */ saja</item>
+    <item>int</item>
+    <item>Setiap class dapat mengandung beberapa method sekaligus</item>
+    <item>Constructor</item>
+    <item>Static</item>
+
+    <item>Parameter (argument) method dapat berupa obect dari suatu class</item>
+    <item>Di dalam class</item>
+    <item>exp1; exp2? exp3</item>
+    <item>int coba []</item>
+    <item>MAlamhari Terbenam</item>
+    </string-array>
+
+    <string-array name="array_jawaban_b_bab_1">
+    <item>System.Out.print("Hello World!");</item>
+    <item>System.out.</item>
+    <item>Encapsulation</item>
+    <item>converseInt()</item>
+    <item>Variable</item>
+
+    <item>Character</item>
+    <item>concat()</item>
+    <item>toCharAt</item>
+    <item>java.lang.*</item>
+    <item>Polymorphism</item>
+
+    <item>// saja</item>
+    <item>short</item>
+    <item>Object merupakan instance dari class</item>
+    <item>Initializer</item>
+    <item>Public</item>
+
+    <item>Semua method dalam java harus memiliki return type</item>
+    <item>Di dalam method</item>
+    <item>exp1: exp2? exp3</item>
+    <item>String [] x = new String(5)</item>
+    <item>MAlamahari Terbenam</item>
+    </string-array>
+
+    <string-array name="array_jawaban_c_bab_1">
+    <item>System.out.Println("Hello World!");</item>
+    <item>System.err.</item>
+    <item>Inhibitor</item>
+    <item>Cint()</item>
+    <item>Method</item>
+
+    <item>short</item>
+    <item>length()</item>
+    <item>charAt()</item>
+    <item>java.swing.*</item>
+    <item>Constructor</item>
+
+    <item>// dan /* … */</item>
+    <item>char</item>
+    <item>Object terdiri dari keyword dan method</item>
+    <item>Creator</item>
+    <item>Private</item>
+
+    <item>Method dengan tipe double berarti method akan menghasilkan nilai bilangan bulat</item>
+    <item>Pendeklarasian class</item>
+    <item>exp1? exp2: exp3</item>
+    <item>String [] abc = {"aku", "bicara", "cepat", "dengan", "erfan"}</item>
+    <item>Alamahari Terbenam</item>
+    </string-array>
+
+    <string-array name="array_jawaban_d_bab_1">
+    <item>System.Out.Println("Hello World!");</item>
+    <item>System.exit.</item>
+    <item>Inheritance</item>
+    <item>ChangeInt()</item>
+    <item>Value</item>
+
+    <item>int</item>
+    <item>equals()</item>
+    <item>valueOf()</item>
+    <item>java.buffer.*</item>
+    <item>Encapsulation</item>
+
+    <item># dan //</item>
+    <item>String</item>
+    <item>Class merupakan pendefinisian dari object</item>
+    <item>Inheritance</item>
+    <item>Protected</item>
+
+    <item>Method dengan tipe void merupakan method yang tidak menampilkan dan mengeluarkan apapun</item>
+    <item>Pendeklarasian method</item>
+    <item>exp1? exp2; exp3</item>
+    <item>int [] ion = {3, 3, 3, 3, 3}</item>
+    <item>Alamtahari Terbenam</item>
+    </string-array>
 </resources>

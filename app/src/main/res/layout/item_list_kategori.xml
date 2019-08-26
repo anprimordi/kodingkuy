@@ -9,7 +9,7 @@
     android:padding="24dp">
 
     <TextView
-        android:id="@+id/text_kategori"
+        android:id="@+id/title_kategori"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:drawableStart="@drawable/ic_test_colored_48dp"

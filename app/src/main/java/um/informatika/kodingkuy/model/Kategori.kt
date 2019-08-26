@@ -7,36 +7,31 @@ data class Kategori (
     val id: Int,
     val nama: String? = "",
     val soal: Int,
-    val jawabanKunci: String?,
+    val jawabanKunci: Int,
     val jawabanA: Int,
     val jawabanB: Int,
     val jawabanC: Int,
-    val jawabanD: Int,
-    val jawabanE: Int) : Parcelable {
-
+    val jawabanD: Int) : Parcelable {
     constructor(parcel: Parcel) : this(
-        parcel.readInt(),
-        parcel.readString(),
-        parcel.readInt(),
-        parcel.readString(),
-        parcel.readInt(),
-        parcel.readInt(),
-        parcel.readInt(),
-        parcel.readInt(),
-        parcel.readInt()
-    ) {
+            parcel.readInt(),
+            parcel.readString(),
+            parcel.readInt(),
+            parcel.readInt(),
+            parcel.readInt(),
+            parcel.readInt(),
+            parcel.readInt(),
+            parcel.readInt()) {
     }
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {
         parcel.writeInt(id)
         parcel.writeString(nama)
         parcel.writeInt(soal)
-        parcel.writeString(jawabanKunci)
+        parcel.writeInt(jawabanKunci)
         parcel.writeInt(jawabanA)
         parcel.writeInt(jawabanB)
         parcel.writeInt(jawabanC)
         parcel.writeInt(jawabanD)
-        parcel.writeInt(jawabanE)
     }
 
     override fun describeContents(): Int {
