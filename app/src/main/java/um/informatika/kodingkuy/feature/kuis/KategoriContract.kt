@@ -6,10 +6,10 @@ import um.informatika.kodingkuy.model.Kategori
 
 interface KategoriContract {
     interface Presenter : BasePresenter {
-        fun showListKuis()
+        fun loadListKuis()
     }
 
     interface View : BaseView<Presenter> {
-        fun showListKuisSucceed(listKategori: List<Kategori>)
+        fun onLoadListKuisSucceed(listKategori: List<Kategori>)
     }
 }

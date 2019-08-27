@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
 import um.informatika.kodingkuy.R
 import um.informatika.kodingkuy.feature.about.AboutActivity
-import um.informatika.kodingkuy.feature.kuis.KuisActivity
+import um.informatika.kodingkuy.feature.kuis.detail.KuisActivity
 import um.informatika.kodingkuy.feature.materi.MateriActivity
 import um.informatika.kodingkuy.feature.pendahuluan.PendahuluanActivity
 import java.util.*
@@ -26,6 +26,7 @@ class HomeActivity : AppCompatActivity() {
 
         bindView()
 
+        //mengatur event saat menu diklik
         cardPendahuluan.setOnClickListener { startActivity(Intent(this, PendahuluanActivity::class.java)) }
         cardAbout.setOnClickListener { startActivity(Intent(this, AboutActivity::class.java)) }
         cardMateri.setOnClickListener { startActivity(Intent(this, MateriActivity::class.java)) }
@@ -34,6 +35,7 @@ class HomeActivity : AppCompatActivity() {
         textCopyright.text = String.format(Locale.getDefault(), R.string.app_copyright.toString(), Calendar.getInstance().get(Calendar.YEAR))
     }
 
+    //mengikat view xml ke variabel kotlin
     private fun bindView() {
         cardPendahuluan = findViewById(R.id.card_pendahuluan)
         cardAbout = findViewById(R.id.card_about)

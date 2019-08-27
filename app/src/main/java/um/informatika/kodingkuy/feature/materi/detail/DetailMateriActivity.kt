@@ -11,7 +11,6 @@ import um.informatika.kodingkuy.model.Materi
 
 class DetailMateriActivity : AppCompatActivity() {
 
-//    private lateinit var toolbar: Toolbar
     private lateinit var textDetailTitle: TextView
     private lateinit var textDetailSubtitle: TextView
     private lateinit var imageDetailMateri: ImageView
@@ -25,10 +24,7 @@ class DetailMateriActivity : AppCompatActivity() {
 
         val materi = intent.getParcelableExtra<Materi>("materi")
 
-//        setSupportActionBar(toolbar)
-
-//        toolbar.title = materi.title
-        textDetailTitle.text = materi!!.title
+        textDetailTitle.text = materi.title
         textDetailSubtitle.text = materi.subtitle
         imageDetailMateri.setImageResource(materi.imageSource)
 

@@ -2,7 +2,8 @@
     <!--General usage-->
     <string name="app_name">Kodingkuy!</string>
     <string name="app_slogan">Yuk belajar ngoding!</string>
-    <string name="app_description">Koding-kuy merupakan aplikasi yang bertujuan untuk mengajarkan pemrograman tingkat
+    <string name="app_description">
+        Koding-kuy merupakan aplikasi yang bertujuan untuk mengajarkan pemrograman tingkat
         dasar.
         Materi yang diajarkan antara lain pemrograman berorientasi objek dan pemrograman web.
         Pemrograman berorientasi objek adalah suatu paradigma pemrograman berdasarkan konsep "objek", yang berisi data,
@@ -12,7 +13,7 @@
         Web) ataupun intranet (jaringan privat).
         Materi tersebut menggunakan HTML, CSS, dan PHP sebagai bahasa pemrogramannya.
         Untuk mengetes kemampuan pengguna, koding-kuy dilengkapi dengan menu kuis yang bersifat pilihan ganda.
-        Semua resource dan modul dalam aplikasi ini bersifat gratis dan open source.
+        Semua resource dan modul dalam aplikasi ini bersifat gratis dan terbuka (open source).
     </string>
     <string name="app_owner">Ahmad Nuftah Primordi</string>
     <string name="app_developer">Ahmad Nuftah Primordi\nS1 Teknik Informatika\nUniversitas Negeri Malang</string>
@@ -48,37 +49,14 @@
 
     <!--Kategori activity usage-->
     <string name="kategori_image">Gambar item kategori</string>
+    <string name="image_question">Gambar soal</string>
 
     <!--Kuis activity usage-->
-
-    <!--<string-array name="">-->
-    <!--<item></item>-->
-    <!--<item></item>-->
-    <!--<item></item>-->
-    <!--<item></item>-->
-    <!--<item></item>-->
-
-    <!--<item></item>-->
-    <!--<item></item>-->
-    <!--<item></item>-->
-    <!--<item></item>-->
-    <!--<item></item>-->
-
-    <!--<item></item>-->
-    <!--<item></item>-->
-    <!--<item></item>-->
-    <!--<item></item>-->
-    <!--<item></item>-->
-
-    <!--<item></item>-->
-    <!--<item></item>-->
-    <!--<item></item>-->
-    <!--<item></item>-->
-    <!--<item></item>-->
-    <!--</string-array>-->
+    <string name="action_back">back</string>
+    <string name="action_next">next</string>
+    <string name="action_ulangi">Ulangi</string>
+    <string name="action_selesai">Selesai</string>
     <!-- ***** soal ***** -->
-
-
     <!--soal bab 1-->
     <string-array name="array_soal_bab_1">
         <item>Diantara perintah untuk mencetak berikut, yang benar adalah …</item>
@@ -125,7 +103,7 @@
         <item>Tag HTML yang digunakan untuk memisahkan teks dengan baris baru adalah …</item>
 
         <item>Agar baris atau kolom dalam tabel sebuah halaman web menjadi kosong menggunakan perintah</item>
-        <item>Perintah "<td valign="top">isi sel</td>" berarti …</item>
+        <item><![CDATA[Perintah <td valign="top">isi sel</td> berarti …]]></item>
         <item>Berikut ini perintah HTML yang berhubungan dalam pembuatan tabel, kecuali</item>
         <item>Contoh penulisan perintah HTML untuk menjadi beberapa baris dalam tabel menjadi satu adalah …</item>
         <item>Perintah yang harus dijalankan agar dapat mengganti baris yang masih dalam satu kolom …</item>
@@ -192,108 +170,273 @@
     </string-array>
     <!-- ***** end of kunci jawaban ***** -->
 
-    <!-- pilihan jawaban bab 1-->
+    <!-- ***** pilihan jawaban bab 1 ***** -->
     <string-array name="array_jawaban_a_bab_1">
-    <item>System.out.println("Hello World!");</item>
-    <item>System.in.</item>
-    <item>Polymorphism</item>
-    <item>parseInt()</item>
-    <item>Identifier</item>
+        <item>System.out.println("Hello World!");</item>
+        <item>System.in.</item>
+        <item>Polymorphism</item>
+        <item>parseInt()</item>
+        <item>Identifier</item>
 
-    <item>float</item>
-    <item>equal()</item>
-    <item>toString</item>
-    <item>java.io.*</item>
-    <item>Inheritance</item>
+        <item>float</item>
+        <item>equal()</item>
+        <item>toString</item>
+        <item>java.io.*</item>
+        <item>Inheritance</item>
 
-    <item>/* … */ saja</item>
-    <item>int</item>
-    <item>Setiap class dapat mengandung beberapa method sekaligus</item>
-    <item>Constructor</item>
-    <item>Static</item>
+        <item>/* … */ saja</item>
+        <item>int</item>
+        <item>Setiap class dapat mengandung beberapa method sekaligus</item>
+        <item>Constructor</item>
+        <item>Static</item>
 
-    <item>Parameter (argument) method dapat berupa obect dari suatu class</item>
-    <item>Di dalam class</item>
-    <item>exp1; exp2? exp3</item>
-    <item>int coba []</item>
-    <item>MAlamhari Terbenam</item>
+        <item>Parameter (argument) method dapat berupa obect dari suatu class</item>
+        <item>Di dalam class</item>
+        <item>exp1; exp2? exp3</item>
+        <item>int coba []</item>
+        <item>MAlamhari Terbenam</item>
     </string-array>
 
     <string-array name="array_jawaban_b_bab_1">
-    <item>System.Out.print("Hello World!");</item>
-    <item>System.out.</item>
-    <item>Encapsulation</item>
-    <item>converseInt()</item>
-    <item>Variable</item>
+        <item>System.Out.print("Hello World!");</item>
+        <item>System.out.</item>
+        <item>Encapsulation</item>
+        <item>converseInt()</item>
+        <item>Variable</item>
 
-    <item>Character</item>
-    <item>concat()</item>
-    <item>toCharAt</item>
-    <item>java.lang.*</item>
-    <item>Polymorphism</item>
+        <item>Character</item>
+        <item>concat()</item>
+        <item>toCharAt</item>
+        <item>java.lang.*</item>
+        <item>Polymorphism</item>
 
-    <item>// saja</item>
-    <item>short</item>
-    <item>Object merupakan instance dari class</item>
-    <item>Initializer</item>
-    <item>Public</item>
+        <item>// saja</item>
+        <item>short</item>
+        <item>Object merupakan instance dari class</item>
+        <item>Initializer</item>
+        <item>Public</item>
 
-    <item>Semua method dalam java harus memiliki return type</item>
-    <item>Di dalam method</item>
-    <item>exp1: exp2? exp3</item>
-    <item>String [] x = new String(5)</item>
-    <item>MAlamahari Terbenam</item>
+        <item>Semua method dalam java harus memiliki return type</item>
+        <item>Di dalam method</item>
+        <item>exp1: exp2? exp3</item>
+        <item>String [] x = new String(5)</item>
+        <item>MAlamahari Terbenam</item>
     </string-array>
 
     <string-array name="array_jawaban_c_bab_1">
-    <item>System.out.Println("Hello World!");</item>
-    <item>System.err.</item>
-    <item>Inhibitor</item>
-    <item>Cint()</item>
-    <item>Method</item>
+        <item>System.out.Println("Hello World!");</item>
+        <item>System.err.</item>
+        <item>Inhibitor</item>
+        <item>Cint()</item>
+        <item>Method</item>
 
-    <item>short</item>
-    <item>length()</item>
-    <item>charAt()</item>
-    <item>java.swing.*</item>
-    <item>Constructor</item>
+        <item>short</item>
+        <item>length()</item>
+        <item>charAt()</item>
+        <item>java.swing.*</item>
+        <item>Constructor</item>
 
-    <item>// dan /* … */</item>
-    <item>char</item>
-    <item>Object terdiri dari keyword dan method</item>
-    <item>Creator</item>
-    <item>Private</item>
+        <item>// dan /* … */</item>
+        <item>char</item>
+        <item>Object terdiri dari keyword dan method</item>
+        <item>Creator</item>
+        <item>Private</item>
 
-    <item>Method dengan tipe double berarti method akan menghasilkan nilai bilangan bulat</item>
-    <item>Pendeklarasian class</item>
-    <item>exp1? exp2: exp3</item>
-    <item>String [] abc = {"aku", "bicara", "cepat", "dengan", "erfan"}</item>
-    <item>Alamahari Terbenam</item>
+        <item>Method dengan tipe double berarti method akan menghasilkan nilai bilangan bulat</item>
+        <item>Pendeklarasian class</item>
+        <item>exp1? exp2: exp3</item>
+        <item>String [] abc = {"aku", "bicara", "cepat", "dengan", "erfan"}</item>
+        <item>Alamahari Terbenam</item>
     </string-array>
 
     <string-array name="array_jawaban_d_bab_1">
-    <item>System.Out.Println("Hello World!");</item>
-    <item>System.exit.</item>
-    <item>Inheritance</item>
-    <item>ChangeInt()</item>
-    <item>Value</item>
+        <item>System.Out.Println("Hello World!");</item>
+        <item>System.exit.</item>
+        <item>Inheritance</item>
+        <item>ChangeInt()</item>
+        <item>Value</item>
 
-    <item>int</item>
-    <item>equals()</item>
-    <item>valueOf()</item>
-    <item>java.buffer.*</item>
-    <item>Encapsulation</item>
+        <item>int</item>
+        <item>equals()</item>
+        <item>valueOf()</item>
+        <item>java.buffer.*</item>
+        <item>Encapsulation</item>
 
-    <item># dan //</item>
-    <item>String</item>
-    <item>Class merupakan pendefinisian dari object</item>
-    <item>Inheritance</item>
-    <item>Protected</item>
+        <item># dan //</item>
+        <item>String</item>
+        <item>Class merupakan pendefinisian dari object</item>
+        <item>Inheritance</item>
+        <item>Protected</item>
 
-    <item>Method dengan tipe void merupakan method yang tidak menampilkan dan mengeluarkan apapun</item>
-    <item>Pendeklarasian method</item>
-    <item>exp1? exp2; exp3</item>
-    <item>int [] ion = {3, 3, 3, 3, 3}</item>
-    <item>Alamtahari Terbenam</item>
+        <item>Method dengan tipe void merupakan method yang tidak menampilkan dan mengeluarkan apapun</item>
+        <item>Pendeklarasian method</item>
+        <item>exp1? exp2; exp3</item>
+        <item>int [] ion = {3, 3, 3, 3, 3}</item>
+        <item>Alamtahari Terbenam</item>
     </string-array>
+    <!-- ***** end of pilihan jawaban bab 1 ***** -->
+
+    <!-- ***** pilihan jawaban bab 2 ***** -->
+    <string-array name="array_jawaban_a_bab_2">
+        <item>Web Designer</item>
+        <item>Operator</item>
+        <item>Wide World Web</item>
+        <item>Tim Berners-Lee</item>
+        <item>Perencanaan</item>
+
+        <item>Hitam</item>
+        <item><![CDATA[
+            <b> … </b>
+        ]]></item>
+        <item><![CDATA[
+            <head> … </head>
+        ]]></item>
+        <item><![CDATA[
+            <p>
+        ]]></item>
+        <item><![CDATA[
+            <break>
+        ]]></item>
+
+        <item><![CDATA[&reg;]]></item>
+        <item>Isi sel dalam kolom menjadi rata atas</item>
+        <item>TR</item>
+        <item><![CDATA[
+            <table colspan="…">
+        ]]></item>
+        <item><![CDATA[
+            <br>
+        ]]></item>
+
+        <item><![CDATA[<Href a www.google.com></Href>>]]></item>
+        <item>Submit</item>
+        <item>Memperoleh informasi pembelian secara online</item>
+        <item><![CDATA[<td><input type="password" name"alamat"</td>]]></item>
+        <item>Checkbox</item>
+    </string-array>
+
+    <string-array name="array_jawaban_b_bab_2">
+        <item>Web Programmer</item>
+        <item>Designer</item>
+        <item>World Wide Web</item>
+        <item>Larry Page</item>
+        <item>Analisis</item>
+
+        <item>Putih</item>
+        <item><![CDATA[
+            <p> … </>
+        ]]></item>
+        <item><![CDATA[
+            <title> … </title>
+        ]]></item>
+        <item><![CDATA[
+            <b>
+        ]]></item>
+        <item><![CDATA[
+            <break>
+        ]]></item>
+
+        <item><![CDATA[
+            &empty;
+        ]]></item>
+        <item>Isi sel dalam baris menjadi rata atas</item>
+        <item>TD</item>
+        <item><![CDATA[
+            <tr colspan="…">
+        ]]></item>
+        <item><![CDATA[
+            <td>
+        ]]></item>
+
+        <item><![CDATA[<a href www.google.com> </a>]]></item>
+        <item>Multi-input</item>
+        <item>Membuat pilihan bagi pengguna</item>
+        <item><![CDATA[
+            <td><input type="password" password"alamat"</td>
+        ]]></item>
+        <item>Radio</item>
+    </string-array>
+
+    <string-array name="array_jawaban_c_bab_2">
+        <item>Web Enforcer</item>
+        <item>Administrator</item>
+        <item>Web World Wide</item>
+        <item>Bill Gates</item>
+        <item>Rekayasa</item>
+
+        <item>Merah</item>
+        <item><![CDATA[
+            <w> … </w>
+        ]]></item>
+        <item><![CDATA[
+            <body> … </body>
+        ]]></item>
+        <item><![CDATA[
+            <br>
+        ]]></item>
+        <item><![CDATA[
+            <br>
+        ]]></item>
+
+        <item><![CDATA[
+            &none;
+        ]]></item>
+        <item>Isi sel dalam kolom di rata samping</item>
+        <item>TS</item>
+        <item><![CDATA[
+            <td colspan="…">
+        ]]></item>
+        <item><![CDATA[
+            <tr>
+        ]]></item>
+
+        <item><![CDATA[<a href="www.google.com"> </a>]]></item>
+        <item>Checkbox</item>
+        <item>Melihat data yang tersedia</item>
+        <item><![CDATA[<td><input type="String" name"password"</td>]]></item>
+        <item>Checkcircle</item>
+    </string-array>
+
+    <string-array name="array_jawaban_d_bab_2">
+        <item>Web Administrator</item>
+        <item>Web Master</item>
+        <item>World Web Wide</item>
+        <item>Steve Jobs</item>
+        <item>Pengembangan</item>
+
+        <item>Biru</item>
+        <item><![CDATA[
+            <w> … </w>
+        ]]></item>
+        <item><![CDATA[
+            <bar> … </bar>
+        ]]></item>
+        <item><![CDATA[
+            <b>
+        ]]></item>
+        <item><![CDATA[
+            <enter>
+        ]]></item>
+
+        <item><![CDATA[
+            &amp;
+        ]]></item>
+        <item>Isi sel dalam kolom dan baris menjadi rata atas</item>
+        <item>TH</item>
+        <item><![CDATA[
+            <td rowspan="…">
+        ]]></item>
+        <item><![CDATA[
+            <rb>
+        ]]></item>
+
+        <item><![CDATA[
+            <to href="www.google.com"> </to>
+        ]]></item>
+        <item>Radio</item>
+        <item>Memperbarui informasi barang yang tersedia</item>
+        <item><![CDATA[<td><input type="Char" name"password"</td>]]></item>
+        <item>Boxmatch</item>
+    </string-array>
+    <!-- ***** end of pilihan jawaban bab 2 ***** -->
 </resources>

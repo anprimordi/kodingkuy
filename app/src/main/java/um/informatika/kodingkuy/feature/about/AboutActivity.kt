@@ -16,6 +16,7 @@ class AboutActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        //activity ini tidak menggunakan layout xml namun menggunakan library about page
         val aboutPage = AboutPage(this)
                 .isRTL(false)
                 .setImage(R.drawable.image_app_owner)
@@ -32,6 +33,7 @@ class AboutActivity : AppCompatActivity() {
         setContentView(aboutPage)
     }
 
+    //membuat copyright dengan tahun terkini
     private fun createCopyright(): Element {
         val copyright = Element()
         val copyrightString = String.format(Locale.getDefault(), R.string.app_copyright.toString(), Calendar.getInstance().get(Calendar.YEAR))

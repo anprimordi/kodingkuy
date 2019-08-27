@@ -4,7 +4,9 @@ import um.informatika.kodingkuy.R
 import um.informatika.kodingkuy.model.Materi
 
 class MateriPresenter(private val view: MateriContract.View) : MateriContract.Presenter {
+    //memuat list materi
     override fun loadListMateri() {
+        //memasukkan semua materi soal ke dalam array list
         val listMateri = arrayListOf(
                 Materi("Pengenalan Java", "Yuk mengenal pemrograman berbasis objek!", R.drawable.ic_materi_java_colored_80dp, "modul_1.pdf"),
                 Materi("Class", "Class merupakan wadah berisi objek yang beratribut", R.drawable.ic_materi_class_colored_80dp, "modul_2.pdf"),
@@ -23,6 +25,7 @@ class MateriPresenter(private val view: MateriContract.View) : MateriContract.Pr
                 Materi("Pemrosesan Form", "Apa yang terjadi pada formulir anda?", R.drawable.ic_materi_form_colored_80dp, "modul_15.pdf"),
                 Materi("Cookie dan Session", "Simpan cookies dan session tanpa perlu login lagi", R.drawable.ic_materi_cookies_colored_80dp, "modul_16.pdf"))
 
+        //menampilkan list materi saat fungsi ini dipanggil
         view.onLoadListMateriSucceed(listMateri)
     }
 

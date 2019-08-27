@@ -1,14 +1,12 @@
 package um.informatika.kodingkuy.model
 
 data class Kuis (
-    val id: Int,
-    val imageSoal: Int,
-    val textSoal: String,
-    val jawabanA: String,
-    val jawabanB: String,
-    val jawabanC: String,
-    val jawabanD: String,
-    val jawabanE: String,
-    val jawaban: String?,
-    val jawabanKunci: String
+        val id: Int,
+        var textSoal: String,
+        var jawabanA: String,
+        var jawabanB: String,
+        var jawabanC: String,
+        var jawabanD: String,
+        var jawaban: String?,
+        var jawabanKunci: String
 )
