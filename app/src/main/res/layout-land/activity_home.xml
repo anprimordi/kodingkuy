@@ -25,8 +25,7 @@
         android:id="@+id/image_app_logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toTopOf="@id/card_about"
         android:contentDescription="@string/image_app_logo"
         android:src="@drawable/logo_app_colored_48dp"
         app:layout_constraintStart_toStartOf="@id/card_about"
@@ -50,10 +49,10 @@
         android:text="@string/app_slogan"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/primary_text"
+        android:layout_marginBottom="@dimen/margin_vertical"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toTopOf="@id/card_materi"
-        app:layout_constraintEnd_toEndOf="@+id/card_materi"
-        app:layout_constraintTop_toBottomOf="@id/image_app_logo" />
+        app:layout_constraintEnd_toEndOf="@+id/card_materi"/>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card_pendahuluan"

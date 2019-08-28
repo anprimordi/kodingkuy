@@ -6,6 +6,7 @@
         Koding-kuy merupakan aplikasi yang bertujuan untuk mengajarkan pemrograman tingkat
         dasar.
         Materi yang diajarkan antara lain pemrograman berorientasi objek dan pemrograman web.
+        Untuk kedepannya diharapkan akan ada penambahan materi.
         Pemrograman berorientasi objek adalah suatu paradigma pemrograman berdasarkan konsep "objek", yang berisi data,
         yang berupa atribut dan method.
         Materi tersebut menggunakan Java sebagai bahasa pemrogramannya.
@@ -62,8 +63,8 @@
         <item>Diantara perintah untuk mencetak berikut, yang benar adalah …</item>
         <item>Stream yang berguna untuk mengirim output adalah …</item>
         <item>Diantara pernyataan berikut, konsep yang tidak ada di dalam pemrograman java adalah …</item>
-        <item>Dalam konsep pemrograman berbasis objek, setiap object memiliki behaviour. Apa yang dimaksud behaviour?</item>
         <item>Method yang digunakan untuk konversi nilai string ke integer adalah …</item>
+        <item>Dalam konsep pemrograman berbasis objek, setiap object memiliki behaviour. Apa yang dimaksud behaviour?</item>
 
         <item>Berikut ini yang termasuk tipe data reference adalah …</item>
         <item>Method yang digunakan untuk membandingkan dua buah data string adalah …</item>
@@ -75,7 +76,7 @@
         <item>Apa tipe data yang tepat untuk menyimpan Nomor Induk Mahasiswa?</item>
         <item>Berikut ini pernyataan yang benar berhubungan dengan class dan object dalam Java, kecuali …</item>
         <item>Suatu method yang dapat dijalankan otomatis pada saat object dari class dibuat, dikenal dengan …</item>
-        <item>Berikut ini adalah hak akses yang dapa tditambahkan di depan method Java, kecuali …</item>
+        <item>Berikut ini adalah hak akses yang dapat ditambahkan di depan method Java, kecuali …</item>
 
         <item>Pernyataan yang benar berhubungan dengan method dalam java, yaitu …</item>
         <item>Penanganan error dengan throws diletakkan di …</item>
@@ -190,10 +191,10 @@
         <item>Constructor</item>
         <item>Static</item>
 
-        <item>Parameter (argument) method dapat berupa obect dari suatu class</item>
+        <item>Parameter (argument) method dapat berupa object dari suatu class</item>
         <item>Di dalam class</item>
         <item>exp1; exp2? exp3</item>
-        <item>int coba []</item>
+        <item>int coba [ ]</item>
         <item>MAlamhari Terbenam</item>
     </string-array>
 
@@ -219,7 +220,7 @@
         <item>Semua method dalam java harus memiliki return type</item>
         <item>Di dalam method</item>
         <item>exp1: exp2? exp3</item>
-        <item>String [] x = new String(5)</item>
+        <item>String [ ] x = new String(5)</item>
         <item>MAlamahari Terbenam</item>
     </string-array>
 
@@ -245,7 +246,7 @@
         <item>Method dengan tipe double berarti method akan menghasilkan nilai bilangan bulat</item>
         <item>Pendeklarasian class</item>
         <item>exp1? exp2: exp3</item>
-        <item>String [] abc = {"aku", "bicara", "cepat", "dengan", "erfan"}</item>
+        <item>String [ ] abc = {"aku", "bicara", "cepat", "dengan", "erfan"}</item>
         <item>Alamahari Terbenam</item>
     </string-array>
 
@@ -271,7 +272,7 @@
         <item>Method dengan tipe void merupakan method yang tidak menampilkan dan mengeluarkan apapun</item>
         <item>Pendeklarasian method</item>
         <item>exp1? exp2; exp3</item>
-        <item>int [] ion = {3, 3, 3, 3, 3}</item>
+        <item>int [ ] ion = {3, 3, 3, 3, 3}</item>
         <item>Alamtahari Terbenam</item>
     </string-array>
     <!-- ***** end of pilihan jawaban bab 1 ***** -->

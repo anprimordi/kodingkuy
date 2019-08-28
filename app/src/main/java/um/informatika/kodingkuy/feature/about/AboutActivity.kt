@@ -20,13 +20,13 @@ class AboutActivity : AppCompatActivity() {
         val aboutPage = AboutPage(this)
                 .isRTL(false)
                 .setImage(R.drawable.image_app_owner)
-                .setDescription(R.string.app_developer.toString())
-                .addItem(Element().setTitle("Version " + R.string.app_version))
-                .addGroup(R.string.text_connect_with_me.toString())
-                .addEmail(R.string.text_email.toString())
-                .addFacebook(R.string.app_owner.toString())
-                .addInstagram(R.string.text_instagram.toString())
-                .addGitHub(R.string.text_github.toString())
+                .setDescription("Ahmad Nuftah Primordi\nS1 Teknik Informatika\nUniversitas Negeri Malang")
+                .addItem(Element().setTitle("Version 1.0"))
+                .addGroup("Connect with me!")
+                .addEmail("ahmadnuftahprimordi@gmail.com")
+                .addFacebook("Ahmad Nuftah Primordi")
+                .addInstagram("a_primordi")
+                .addGitHub("anprimordi")
                 .addItem(createCopyright())
                 .create()
 
@@ -36,9 +36,9 @@ class AboutActivity : AppCompatActivity() {
     //membuat copyright dengan tahun terkini
     private fun createCopyright(): Element {
         val copyright = Element()
-        val copyrightString = String.format(Locale.getDefault(), R.string.app_copyright.toString(), Calendar.getInstance().get(Calendar.YEAR))
+        val copyrightString = String.format(Locale.getDefault(), "Copyright © %d by Ahmad Nuftah Primordi", Calendar.getInstance().get(Calendar.YEAR))
         copyright.title = copyrightString
-        copyright.icon = R.mipmap.ic_launcher_round
+        copyright.icon = R.drawable.ic_launcher_foreground
         copyright.gravity = Gravity.CENTER
         copyright.onClickListener = View.OnClickListener { Toast.makeText(this@AboutActivity, copyrightString, Toast.LENGTH_SHORT).show() }
 

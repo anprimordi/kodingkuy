@@ -20,12 +20,14 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".feature.materi.detail.DetailMateriActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".feature.materi.MateriActivity"
-            android:label="Materi"
-            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-        <activity android:name=".feature.kuis.detail.KuisActivity" />
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".feature.kuis.detail.KuisActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".feature.pendahuluan.PendahuluanActivity"
             android:theme="@style/AppTheme.NoActionBar" />

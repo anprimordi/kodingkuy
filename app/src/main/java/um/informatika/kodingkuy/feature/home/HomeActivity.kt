@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
 import um.informatika.kodingkuy.R
 import um.informatika.kodingkuy.feature.about.AboutActivity
-import um.informatika.kodingkuy.feature.kuis.detail.KuisActivity
+import um.informatika.kodingkuy.feature.kuis.KategoriActivity
 import um.informatika.kodingkuy.feature.materi.MateriActivity
 import um.informatika.kodingkuy.feature.pendahuluan.PendahuluanActivity
 import java.util.*
@@ -30,9 +30,9 @@ class HomeActivity : AppCompatActivity() {
         cardPendahuluan.setOnClickListener { startActivity(Intent(this, PendahuluanActivity::class.java)) }
         cardAbout.setOnClickListener { startActivity(Intent(this, AboutActivity::class.java)) }
         cardMateri.setOnClickListener { startActivity(Intent(this, MateriActivity::class.java)) }
-        cardKuis.setOnClickListener { startActivity(Intent(this, KuisActivity::class.java)) }
+        cardKuis.setOnClickListener { startActivity(Intent(this, KategoriActivity::class.java)) }
 
-        textCopyright.text = String.format(Locale.getDefault(), R.string.app_copyright.toString(), Calendar.getInstance().get(Calendar.YEAR))
+        textCopyright.text = String.format(Locale.getDefault(), "Copyright © %d by Ahmad Nuftah Primordi", Calendar.getInstance().get(Calendar.YEAR))
     }
 
     //mengikat view xml ke variabel kotlin

@@ -22,12 +22,12 @@ class KategoriActivity : AppCompatActivity(), KategoriContract.View {
 
         presenter = KategoriPresenter(this)
         bindView()
+        toolbar.title = "Kategori Kuis"
     }
 
     //mengatur event saat list kuis sukses ditampilkan
     override fun onLoadListKuisSucceed(listKategori: List<Kategori>) {
         setSupportActionBar(toolbar)
-        toolbar.title = "Kategori Kuis"
 
         rvKategori.setHasFixedSize(true)
         //menetapkan list kategori soal pada list data pada adapter
@@ -42,7 +42,7 @@ class KategoriActivity : AppCompatActivity(), KategoriContract.View {
     //mengikat view xml ke variabel kotlin
     private fun bindView() {
         toolbar = findViewById(R.id.toolbar_kategori)
-        rvKategori = findViewById(R.id.toolbar_kategori)
+        rvKategori = findViewById(R.id.rv_kategori)
         rvKategori.layoutManager = LinearLayoutManager(this)
         adapter = KategoriAdapter(this)
         rvKategori.adapter = adapter

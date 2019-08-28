@@ -5,10 +5,10 @@
     android:id="@+id/layout_item_kategori"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@android:color/white"
-    android:padding="24dp">
+    android:background="@android:color/white">
 
     <TextView
+        android:layout_margin="@dimen/_16sdp"
         android:id="@+id/title_kategori"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,4 +24,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="@tools:sample/lorem/random" />
+
+    <View
+        android:background="@color/divider"
+        app:layout_constraintStart_toStartOf="@id/title_kategori"
+        app:layout_constraintEnd_toEndOf="@id/title_kategori"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="1dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
