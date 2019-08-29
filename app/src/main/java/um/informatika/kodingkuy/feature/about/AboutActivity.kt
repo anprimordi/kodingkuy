@@ -16,7 +16,6 @@ class AboutActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        //activity ini tidak menggunakan layout xml namun menggunakan library about page
         val aboutPage = AboutPage(this)
                 .isRTL(false)
                 .setImage(R.drawable.image_app_owner)
@@ -24,12 +23,12 @@ class AboutActivity : AppCompatActivity() {
                 .addItem(Element().setTitle("Version 1.0"))
                 .addGroup("Connect with me!")
                 .addEmail("ahmadnuftahprimordi@gmail.com")
-                .addFacebook("Ahmad Nuftah Primordi")
                 .addInstagram("a_primordi")
                 .addGitHub("anprimordi")
                 .addItem(createCopyright())
                 .create()
 
+        //activity ini tidak menggunakan layout xml namun menggunakan library medyo about page
         setContentView(aboutPage)
     }
 

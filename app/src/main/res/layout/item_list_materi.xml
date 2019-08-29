@@ -12,14 +12,14 @@
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:layout_margin="@dimen/margin_item_materi_image"
-        android:contentDescription="@string/kategori_image"
+        android:contentDescription="@string/materi_image"
         android:src="@drawable/ic_placeholder_blue_80dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/text_title"
+        android:id="@+id/text_materi_title"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/margin_materi_list_horizontal"
@@ -34,7 +34,7 @@
         tools:text="@tools:sample/lorem" />
 
     <TextView
-        android:id="@+id/text_subtitle"
+        android:id="@+id/text_materi_subtitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/margin_materi_list_horizontal"
@@ -53,6 +53,6 @@
         android:layout_height="1dp"
         android:background="@color/divider"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@id/text_title"
-        app:layout_constraintStart_toStartOf="@id/text_title" />
+        app:layout_constraintEnd_toEndOf="@id/text_materi_title"
+        app:layout_constraintStart_toStartOf="@id/text_materi_title" />
 </androidx.constraintlayout.widget.ConstraintLayout>

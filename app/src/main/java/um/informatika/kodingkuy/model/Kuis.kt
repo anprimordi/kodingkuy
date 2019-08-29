@@ -1,6 +1,6 @@
 package um.informatika.kodingkuy.model
 
-data class Kuis (
+data class Kuis(
         val id: Int,
         val textSoal: String,
         var jawabanA: String,

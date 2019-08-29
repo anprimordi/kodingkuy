@@ -3,11 +3,11 @@ package um.informatika.kodingkuy.model
 import android.os.Parcel
 import android.os.Parcelable
 
-data class Materi (
-    val title: String? = "",
-    val subtitle: String? = "",
-    val imageSource: Int = 0,
-    val fileSource: String? = ""
+data class Materi(
+        val title: String? = "",
+        val subtitle: String? = "",
+        val imageSource: Int = 0,
+        val fileSource: String? = ""
 ) : Parcelable {
     constructor(parcel: Parcel) : this(
             parcel.readString(),

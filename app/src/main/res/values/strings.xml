@@ -3,7 +3,7 @@
     <string name="app_name">Kodingkuy!</string>
     <string name="app_slogan">Yuk belajar ngoding!</string>
     <string name="app_description">
-        Koding-kuy merupakan aplikasi yang bertujuan untuk mengajarkan pemrograman tingkat
+        Kodingkuy merupakan aplikasi yang bertujuan untuk mengajarkan pemrograman tingkat
         dasar.
         Materi yang diajarkan antara lain pemrograman berorientasi objek dan pemrograman web.
         Untuk kedepannya diharapkan akan ada penambahan materi.
@@ -14,7 +14,7 @@
         Web) ataupun intranet (jaringan privat).
         Materi tersebut menggunakan HTML, CSS, dan PHP sebagai bahasa pemrogramannya.
         Untuk mengetes kemampuan pengguna, koding-kuy dilengkapi dengan menu kuis yang bersifat pilihan ganda.
-        Semua resource dan modul dalam aplikasi ini bersifat gratis dan terbuka (open source).
+        Semua resource dan modul dalam aplikasi ini bersifat gratis dan terbuka (open source) serta dapat diakses kapan saja.
     </string>
     <string name="app_owner">Ahmad Nuftah Primordi</string>
     <string name="app_developer">Ahmad Nuftah Primordi\nS1 Teknik Informatika\nUniversitas Negeri Malang</string>
@@ -53,10 +53,11 @@
     <string name="image_question">Gambar soal</string>
 
     <!--Kuis activity usage-->
-    <string name="action_back">back</string>
+    <string name="action_prev">prev</string>
     <string name="action_next">next</string>
     <string name="action_ulangi">Ulangi</string>
     <string name="action_selesai">Selesai</string>
+    <string name="materi_image">Gambar untuk materi</string>
     <!-- ***** soal ***** -->
     <!--soal bab 1-->
     <string-array name="array_soal_bab_1">

@@ -3,18 +3,20 @@ package um.informatika.kodingkuy.model
 import android.os.Parcel
 import android.os.Parcelable
 
-data class Kategori (
-    val id: Int,
-    val nama: String? = "",
-    val soal: Int,
-    val jawabanKunci: Int,
-    val jawabanA: Int,
-    val jawabanB: Int,
-    val jawabanC: Int,
-    val jawabanD: Int) : Parcelable {
+data class Kategori(
+        val id: Int,
+        val title: String? = "",
+        val image: Int,
+        val soal: Int,
+        val jawabanKunci: Int,
+        val jawabanA: Int,
+        val jawabanB: Int,
+        val jawabanC: Int,
+        val jawabanD: Int) : Parcelable {
     constructor(parcel: Parcel) : this(
             parcel.readInt(),
             parcel.readString(),
+            parcel.readInt(),
             parcel.readInt(),
             parcel.readInt(),
             parcel.readInt(),
@@ -25,7 +27,8 @@ data class Kategori (
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {
         parcel.writeInt(id)
-        parcel.writeString(nama)
+        parcel.writeString(title)
+        parcel.writeInt(image)
         parcel.writeInt(soal)
         parcel.writeInt(jawabanKunci)
         parcel.writeInt(jawabanA)
@@ -47,4 +50,5 @@ data class Kategori (
             return arrayOfNulls(size)
         }
     }
+
 }

@@ -8,13 +8,6 @@
     tools:context=".feature.home.HomeActivity">
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline_horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.5" />
-
-    <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_vertical"
         android:layout_width="0dp"
         android:layout_height="match_parent"
@@ -25,9 +18,9 @@
         android:id="@+id/image_app_logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@id/card_about"
         android:contentDescription="@string/image_app_logo"
         android:src="@drawable/logo_app_colored_48dp"
+        app:layout_constraintBottom_toTopOf="@id/card_about"
         app:layout_constraintStart_toStartOf="@id/card_about"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -46,23 +39,22 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_vertical"
         android:text="@string/app_slogan"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/primary_text"
-        android:layout_marginBottom="@dimen/margin_vertical"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toTopOf="@id/card_materi"
-        app:layout_constraintEnd_toEndOf="@+id/card_materi"/>
+        app:layout_constraintEnd_toEndOf="@+id/card_materi" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card_pendahuluan"
         style="@style/GeneralCardViewStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
+        android:layout_margin="@dimen/margin_horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/card_about"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
@@ -83,7 +75,6 @@
                 android:src="@drawable/ic_main_info_white_128dp" />
 
             <TextView
-                android:id="@+id/text_info"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="?android:attr/selectableItemBackground"
@@ -103,10 +94,9 @@
         style="@style/GeneralCardViewStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
+        android:layout_margin="@dimen/margin_horizontal_small"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/card_materi"
-        app:layout_constraintStart_toEndOf="@id/card_pendahuluan"
+        app:layout_constraintEnd_toStartOf="@id/guideline_vertical"
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
@@ -127,7 +117,6 @@
                 android:src="@drawable/ic_home_pendahuluan_white_128dp" />
 
             <TextView
-                android:id="@+id/text_about"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="?android:attr/selectableItemBackground"
@@ -147,10 +136,9 @@
         style="@style/GeneralCardViewStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
+        android:layout_margin="@dimen/margin_horizontal_small"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/card_kuis"
-        app:layout_constraintStart_toStartOf="@id/card_about"
+        app:layout_constraintStart_toEndOf="@id/guideline_vertical"
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
@@ -171,7 +159,6 @@
                 android:src="@drawable/ic_home_code_white_128dp" />
 
             <TextView
-                android:id="@+id/text_materi"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="?android:attr/selectableItemBackground"
@@ -191,10 +178,9 @@
         style="@style/GeneralCardViewStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
+        android:layout_margin="@dimen/margin_horizontal"
         android:background="?attr/selectableItemBackground"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/card_materi"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -216,7 +202,6 @@
                 android:src="@drawable/ic_home_kuis_white_128dp" />
 
             <TextView
-                android:id="@+id/text_kuis"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="?android:attr/selectableItemBackground"

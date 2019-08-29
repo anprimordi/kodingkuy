@@ -5,6 +5,7 @@ import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.recyclerview.widget.RecyclerView
@@ -37,7 +38,8 @@ class KategoriAdapter(private val context: Context) : RecyclerView.Adapter<Kateg
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val kategori = mListData!![position]
 
-        holder.titleKategori.text = kategori.nama
+        holder.titleKategori.text = kategori.title
+        holder.imageKategori.setImageResource(kategori.image)
         holder.layoutItem.setOnClickListener {
             //kirim intent kategori ke kuis activity untuk mendapatkan title pada toolbar
             val intent = Intent(context, KuisActivity::class.java)
@@ -49,6 +51,7 @@ class KategoriAdapter(private val context: Context) : RecyclerView.Adapter<Kateg
     //mengikat view xml ke variabel kotlin
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         var layoutItem: ConstraintLayout = itemView.findViewById(R.id.layout_item_kategori)
-        var titleKategori: TextView = itemView.findViewById(R.id.title_kategori)
+        var titleKategori: TextView = itemView.findViewById(R.id.text_kategori_title)
+        var imageKategori: ImageView = itemView.findViewById(R.id.image_kategori)
     }
 }

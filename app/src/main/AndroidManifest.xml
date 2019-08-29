@@ -27,7 +27,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".feature.kuis.detail.KuisActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".feature.pendahuluan.PendahuluanActivity"
             android:theme="@style/AppTheme.NoActionBar" />

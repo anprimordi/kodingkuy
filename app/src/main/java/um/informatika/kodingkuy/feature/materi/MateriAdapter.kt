@@ -55,8 +55,8 @@ class MateriAdapter(private val context: Context) : RecyclerView.Adapter<MateriA
 
     //mengikat view xml ke variabel kotlin
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        var textTitle: TextView = itemView.findViewById(R.id.text_title)
-        var textSubtitle: TextView = itemView.findViewById(R.id.text_subtitle)
+        var textTitle: TextView = itemView.findViewById(R.id.text_materi_title)
+        var textSubtitle: TextView = itemView.findViewById(R.id.text_materi_subtitle)
         var imageSource: ImageView = itemView.findViewById(R.id.image_materi)
         var layoutItem: ConstraintLayout = itemView.findViewById(R.id.layout_item_materi)
     }

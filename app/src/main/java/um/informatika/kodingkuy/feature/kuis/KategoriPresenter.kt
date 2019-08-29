@@ -10,6 +10,7 @@ class KategoriPresenter internal constructor(private val view: KategoriContract.
                 Kategori(
                         1,
                         "Pemrograman Berbasis Objek",
+                        R.drawable.ic_materi_java_colored_80dp,
                         R.array.array_soal_bab_1,
                         R.array.array_jawaban_kunci_bab_1,
                         R.array.array_jawaban_a_bab_1,
@@ -19,6 +20,7 @@ class KategoriPresenter internal constructor(private val view: KategoriContract.
                 Kategori(
                         2,
                         "Pemrograman Web",
+                        R.drawable.ic_materi_html_colored_80dp,
                         R.array.array_soal_bab_2,
                         R.array.array_jawaban_kunci_bab_2,
                         R.array.array_jawaban_a_bab_2,

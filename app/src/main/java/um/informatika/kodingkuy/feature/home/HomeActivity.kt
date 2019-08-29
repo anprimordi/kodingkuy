@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
+import kotlinx.android.synthetic.main.activity_home.*
 import um.informatika.kodingkuy.R
 import um.informatika.kodingkuy.feature.about.AboutActivity
 import um.informatika.kodingkuy.feature.kuis.KategoriActivity
@@ -18,7 +19,6 @@ class HomeActivity : AppCompatActivity() {
     private lateinit var cardAbout: CardView
     private lateinit var cardMateri: CardView
     private lateinit var cardKuis: CardView
-    private lateinit var textCopyright: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,7 +32,7 @@ class HomeActivity : AppCompatActivity() {
         cardMateri.setOnClickListener { startActivity(Intent(this, MateriActivity::class.java)) }
         cardKuis.setOnClickListener { startActivity(Intent(this, KategoriActivity::class.java)) }
 
-        textCopyright.text = String.format(Locale.getDefault(), "Copyright © %d by Ahmad Nuftah Primordi", Calendar.getInstance().get(Calendar.YEAR))
+        text_copyright.text = String.format(Locale.getDefault(), "Copyright © %d by Ahmad Nuftah Primordi", Calendar.getInstance().get(Calendar.YEAR))
     }
 
     //mengikat view xml ke variabel kotlin
@@ -41,6 +41,5 @@ class HomeActivity : AppCompatActivity() {
         cardAbout = findViewById(R.id.card_about)
         cardMateri = findViewById(R.id.card_materi)
         cardKuis = findViewById(R.id.card_kuis)
-        textCopyright = findViewById(R.id.text_copyright)
     }
 }
