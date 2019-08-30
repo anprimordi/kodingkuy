@@ -18,9 +18,9 @@ class AboutActivity : AppCompatActivity() {
 
         val aboutPage = AboutPage(this)
                 .isRTL(false)
-                .setImage(R.drawable.image_app_owner)
+                .setImage(R.drawable.img_app_owner)
                 .setDescription("Ahmad Nuftah Primordi\nS1 Teknik Informatika\nUniversitas Negeri Malang")
-                .addItem(Element().setTitle("Version 1.0"))
+                .addItem(Element().setTitle("Versi 1.0"))
                 .addGroup("Connect with me!")
                 .addEmail("ahmadnuftahprimordi@gmail.com")
                 .addInstagram("a_primordi")
@@ -35,7 +35,7 @@ class AboutActivity : AppCompatActivity() {
     //membuat copyright dengan tahun terkini
     private fun createCopyright(): Element {
         val copyright = Element()
-        val copyrightString = String.format(Locale.getDefault(), "Copyright © %d by Ahmad Nuftah Primordi", Calendar.getInstance().get(Calendar.YEAR))
+        val copyrightString = String.format(Locale.getDefault(), "%d by Ahmad Nuftah Primordi", Calendar.getInstance().get(Calendar.YEAR))
         copyright.title = copyrightString
         copyright.icon = R.drawable.ic_launcher_foreground
         copyright.gravity = Gravity.CENTER

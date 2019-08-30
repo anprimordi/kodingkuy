@@ -15,31 +15,16 @@ import java.util.*
 
 class HomeActivity : AppCompatActivity() {
 
-    private lateinit var cardPendahuluan: CardView
-    private lateinit var cardAbout: CardView
-    private lateinit var cardMateri: CardView
-    private lateinit var cardKuis: CardView
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-        bindView()
-
         //mengatur event saat menu diklik
-        cardPendahuluan.setOnClickListener { startActivity(Intent(this, PendahuluanActivity::class.java)) }
-        cardAbout.setOnClickListener { startActivity(Intent(this, AboutActivity::class.java)) }
-        cardMateri.setOnClickListener { startActivity(Intent(this, MateriActivity::class.java)) }
-        cardKuis.setOnClickListener { startActivity(Intent(this, KategoriActivity::class.java)) }
+        card_pendahuluan.setOnClickListener { startActivity(Intent(this, PendahuluanActivity::class.java)) }
+        card_about.setOnClickListener { startActivity(Intent(this, AboutActivity::class.java)) }
+        card_materi.setOnClickListener { startActivity(Intent(this, MateriActivity::class.java)) }
+        card_kuis.setOnClickListener { startActivity(Intent(this, KategoriActivity::class.java)) }
 
-        text_copyright.text = String.format(Locale.getDefault(), "Copyright © %d by Ahmad Nuftah Primordi", Calendar.getInstance().get(Calendar.YEAR))
-    }
-
-    //mengikat view xml ke variabel kotlin
-    private fun bindView() {
-        cardPendahuluan = findViewById(R.id.card_pendahuluan)
-        cardAbout = findViewById(R.id.card_about)
-        cardMateri = findViewById(R.id.card_materi)
-        cardKuis = findViewById(R.id.card_kuis)
+        text_copyright.text = String.format(Locale.getDefault(), "%d by Ahmad Nuftah Primordi", Calendar.getInstance().get(Calendar.YEAR))
     }
 }

@@ -18,7 +18,7 @@ class MateriPresenter(private val view: MateriContract.View) : MateriContract.Pr
                 Materi("Dasar-dasar HTML", "Yuk belajar pemrograman web!", R.drawable.ic_materi_html_colored_80dp, "modul_8.pdf"),
                 Materi("Komponen HTML Lanjut", "Link, tabel, dan form", R.drawable.ic_materi_link_colored_80dp, "modul_9.pdf"),
                 Materi("Validasi HTML5", "Belum punya akun?", R.drawable.ic_materi_validation_colored_80dp, "modul_10.pdf"),
-                Materi("Cascading Style Sheet", "CSS 3 untuk penataan estetika layout web", R.drawable.ic_css_colored_80dp, "modul_11.pdf"),
+                Materi("Cascading Style Sheet", "CSS 3 untuk penataan estetika layout web", R.drawable.ic_materi_css_colored_80dp, "modul_11.pdf"),
                 Materi("Desain Web CSS", "Desain web kamu menggunakan CSS agar menarik", R.drawable.ic_materi_design_colored_80dp, "modul_12.pdf"),
                 Materi("Desain Web Responsif", "Resolusi komputer atau mobile? No problem!", R.drawable.ic_materi_responsive_colored_80dp, "modul_13.pdf"),
                 Materi("Dasar-dasar PHP", "PHP-in web!", R.drawable.ic_materi_php_colored_80dp, "modul_14.pdf"),

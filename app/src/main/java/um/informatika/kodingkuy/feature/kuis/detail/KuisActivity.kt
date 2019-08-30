@@ -18,8 +18,6 @@ class KuisActivity : AppCompatActivity() {
     private var index = -1
     private val kuisList = arrayListOf<Kuis>()
     private lateinit var toolbar: Toolbar
-//    private lateinit var titleKuis: TextView
-//    private lateinit var imageKuis: ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -249,7 +247,5 @@ class KuisActivity : AppCompatActivity() {
 
     private fun bindView() {
         toolbar = findViewById(R.id.toolbar_kuis)
-//        titleKuis = findViewById(R.id.text_kuis_title)
-//        imageKuis = findViewById(R.id.image_kuis)
     }
 }
